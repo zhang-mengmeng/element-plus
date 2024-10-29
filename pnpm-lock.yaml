@@ -105,8 +105,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       '@pnpm/types':
-        specifier: ^8.4.0
-        version: 8.4.0
+        specifier: ^12.2.0
+        version: 12.2.0
       '@types/fs-extra':
         specifier: ^9.0.13
         version: 9.0.13
@@ -392,8 +392,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1
       '@pnpm/types':
-        specifier: ^8.4.0
-        version: 8.4.0
+        specifier: ^12.2.0
+        version: 12.2.0
       unbuild:
         specifier: ^2.0.0
         version: 2.0.0(sass@1.79.3)(typescript@5.5.4)(vue-tsc@2.1.6(typescript@5.5.4))
@@ -1664,9 +1664,11 @@ packages:
 
   '@esbuild-kit/cjs-loader@2.2.1':
     resolution: {integrity: sha512-pq2Z4DcqTBF7y1wQuIzFVqmHJVnmP6hgHEWN2ubPjeG7OzXMZ9NvozW+YA/MIeMdZWp1jcJ/EvXk2+mfEKoCDQ==}
+    deprecated: 'Merged into tsx: https://tsx.is'
 
   '@esbuild-kit/core-utils@2.0.2':
     resolution: {integrity: sha512-clNYQUsqtc36pzW5EufMsahcbLG45EaW3YDyf0DlaS0eCMkDXpxIlHwPC0rndUwG6Ytk9sMSD5k1qHbwYEC/OQ==}
+    deprecated: 'Merged into tsx: https://tsx.is'
 
   '@esbuild/aix-ppc64@0.19.12':
     resolution: {integrity: sha512-bmoCYyWdEL3wDQIVbcyzRyeKLgk2WtWLTWz1ZIAZF/EGbNOwSA6ew3PftJ1PqMiOOGu0OyFMzG53L0zqIpPeNA==}
@@ -2351,6 +2353,10 @@ packages:
   '@pnpm/render-peer-issues@2.0.5':
     resolution: {integrity: sha512-J2FOgp7HheHWE+0WwaQkR2Ab+osg0yVO8H750+7MBw2PTvUyeNMVAdgy3ddIRYRaogT90jjpJFiywxSt9kd/4g==}
     engines: {node: '>=14.6'}
+
+  '@pnpm/types@12.2.0':
+    resolution: {integrity: sha512-5RtwWhX39j89/Tmyv2QSlpiNjErA357T/8r1Dkg+2lD3P7RuS7Xi2tChvmOC3VlezEFNcWnEGCOeKoGRkDuqFA==}
+    engines: {node: '>=18.12'}
 
   '@pnpm/types@8.4.0':
     resolution: {integrity: sha512-sq/UdSq/jWCpYglw9SFmvR8qzUEi0p2oZIO0AHjkWWQg4Qrolf6DgD0WWmLiEP2WxHjbYeyD3ZzWzQor1+6cvw==}
@@ -11107,6 +11113,8 @@ snapshots:
       chalk: 4.1.2
       cli-columns: 4.0.0
 
+  '@pnpm/types@12.2.0': {}
+
   '@pnpm/types@8.4.0': {}
 
   '@pnpm/write-project-manifest@3.0.5':
@@ -11803,7 +11811,7 @@ snapshots:
   '@vue-macros/common@1.10.1(vue@3.2.37)':
     dependencies:
       '@babel/types': 7.24.0
-      '@rollup/pluginutils': 5.1.0(rollup@2.75.7)
+      '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
       '@vue/compiler-sfc': 3.4.31
       ast-kit: 0.11.3
       local-pkg: 0.5.0
@@ -12592,7 +12600,7 @@ snapshots:
   ast-kit@0.11.3:
     dependencies:
       '@babel/parser': 7.24.7
-      '@rollup/pluginutils': 5.1.0(rollup@2.75.7)
+      '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
       pathe: 1.1.2
     transitivePeerDependencies:
       - rollup
@@ -12600,7 +12608,7 @@ snapshots:
   ast-kit@0.9.5:
     dependencies:
       '@babel/parser': 7.24.7
-      '@rollup/pluginutils': 5.1.0(rollup@2.75.7)
+      '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
       pathe: 1.1.2
     transitivePeerDependencies:
       - rollup
